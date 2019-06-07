@@ -160,6 +160,29 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.navdiv {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navdiv .navlinkscontainer {
+  width: 40%;
+  margin: auto;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.navdiv .navlinkscontainer a {
+  text-decoration: none;
+}
+#SWtop {
+  font-size: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
