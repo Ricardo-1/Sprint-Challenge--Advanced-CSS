@@ -74,7 +74,17 @@
   }
 }
 
-button{
-  .btn(black,white);
-  width:20%;
+.btndiv{
+  height: 20%;
+}
+.SUbtn{
+  .btn(@btncolor,white);
+  height: 70%;
+  width:35%;
+  border-radius: 4px;
+  font-size: 2rem;
+  &:hover{
+    background-color: lighten(white, 100%);
+    color: darken(@btncolor, 100%);
+  }
 }

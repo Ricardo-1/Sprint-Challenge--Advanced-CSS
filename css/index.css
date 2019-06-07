@@ -244,8 +244,18 @@ footer {
   height: auto;
   border-radius: 10px;
 }
-button {
-  background-color: black;
+.btndiv {
+  height: 20%;
+}
+.SUbtn {
+  background-color: #242939;
   color: white;
-  width: 20%;
+  height: 70%;
+  width: 35%;
+  border-radius: 4px;
+  font-size: 2rem;
+}
+.SUbtn:hover {
+  background-color: #ffffff;
+  color: #000000;
 }
