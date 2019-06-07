@@ -5,7 +5,8 @@
     flex-direction: column;
     align-items: center;
     .navlinkscontainer{
-      width:40%;
+        max-width: 800px;
+      width:100%;
       margin:auto;
       margin-bottom: 1rem;
       font-size: 1.8rem;
@@ -17,8 +18,23 @@
       }
     }
   }
-  #SWtop{
+#SWtop{
     font-size: 5rem;
     margin-top:2rem;
     margin-bottom: 2rem;
   }
+
+ @media(max-width: 500px){
+     .navdiv{
+         width: 100%;
+
+     }
+    
+     .navlinkscontainer{
+         
+         
+     }
+      a{
+         font-size: 1.5rem;
+     }
+}

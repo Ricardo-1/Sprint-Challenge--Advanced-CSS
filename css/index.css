@@ -167,7 +167,8 @@ p {
   align-items: center;
 }
 .navdiv .navlinkscontainer {
-  width: 40%;
+  max-width: 800px;
+  width: 100%;
   margin: auto;
   margin-bottom: 1rem;
   font-size: 1.8rem;
@@ -182,6 +183,14 @@ p {
   font-size: 5rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+@media (max-width: 500px) {
+  .navdiv {
+    width: 100%;
+  }
+  a {
+    font-size: 1.5rem;
+  }
 }
 footer {
   color: #22283B;
@@ -225,6 +234,7 @@ footer {
   padding: 50px 60px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .home .walk .walk-text {
   width: 50%;
@@ -258,4 +268,54 @@ footer {
 .SUbtn:hover {
   background-color: #ffffff;
   color: #000000;
+}
+@media (max-width: 500px) {
+  body {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+  section {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .sky {
+    display: none;
+  }
+  .launch {
+    display: none;
+  }
+  .blast {
+    size: 100%;
+  }
+  .btndiv {
+    height: 20%;
+    border: red 1px solid;
+    widows: 100%;
+  }
+  .SUbtn {
+    background-color: #242939;
+    color: white;
+    height: 70%;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 2rem;
+  }
+  .SUbtn:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  .walk-text {
+    order: 2;
+  }
 }
