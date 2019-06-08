@@ -1,3 +1,11 @@
+.flexcolumn {
+  display: flex;
+  flex-direction: column;
+}
+.flexrow {
+  display: flex;
+  flex-direction: row;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -173,10 +181,10 @@ p {
 }
 .navdiv nav {
   width: 500px;
-  display: flex;
-  flex-direction: row;
   justify-content: space-around;
   margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
 }
 .navdiv nav a {
   font-size: 1.75rem;
